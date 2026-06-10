@@ -1,0 +1,32 @@
+archivo origen,nombre columna,dtype,total de uniques,total nan,total unknown,total centinelas / dummies,sample de valores unicos (10 elem)
+Amazon Sale Report.csv (Transaccional),index,int64,128975,0,0,4,"[np.int64(0), np.int64(1), np.int64(2), np.int64(3), np.int64(4), np.int64(5), np.int64(6), np.int64(7)]"
+Amazon Sale Report.csv (Transaccional),Order ID,str,120378,0,0,0,"['405-8078784-5731545', '171-9198151-1101146', '404-0687676-7273146', '403-9615377-8133951', '407-1069790-7240320', '404-1490984-4578765', '408-5748499-6859555', '406-7807733-3785945']"
+Amazon Sale Report.csv (Transaccional),Date,str,91,0,0,0,"['04-30-22', '04-29-22', '04-28-22', '04-27-22', '04-26-22', '04-25-22', '04-24-22', '04-23-22']"
+Amazon Sale Report.csv (Transaccional),Status,str,13,0,0,0,"['Cancelled', 'Shipped - Delivered to Buyer', 'Shipped', 'Shipped - Returned to Seller', 'Shipped - Rejected by Buyer', 'Shipped - Lost in Transit', 'Shipped - Out for Delivery', 'Shipped - Returning to Seller']"
+Amazon Sale Report.csv (Transaccional),Fulfilment,str,2,0,0,0,"['Merchant', 'Amazon']"
+Amazon Sale Report.csv (Transaccional),Sales Channel ,str,2,0,0,0,"['Amazon.in', 'Non-Amazon']"
+Amazon Sale Report.csv (Transaccional),ship-service-level,str,2,0,0,0,"['Standard', 'Expedited']"
+Amazon Sale Report.csv (Transaccional),Style,str,1377,0,0,0,"['SET389', 'JNE3781', 'JNE3371', 'J0341', 'JNE3671', 'SET264', 'J0095', 'JNE3405']"
+Amazon Sale Report.csv (Transaccional),SKU,str,7195,0,0,0,"['SET389-KR-NP-S', 'JNE3781-KR-XXXL', 'JNE3371-KR-XL', 'J0341-DR-L', 'JNE3671-TU-XXXL', 'SET264-KR-NP-XL', 'J0095-SET-L', 'JNE3405-KR-S']"
+Amazon Sale Report.csv (Transaccional),Category,str,9,0,0,0,"['Set', 'kurta', 'Western Dress', 'Top', 'Ethnic Dress', 'Bottom', 'Saree', 'Blouse']"
+Amazon Sale Report.csv (Transaccional),Size,str,11,0,0,0,"['S', '3XL', 'XL', 'L', 'XXL', 'XS', '6XL', 'M']"
+Amazon Sale Report.csv (Transaccional),ASIN,str,7190,0,0,0,"['B09KXVBD7Z', 'B09K3WFS32', 'B07WV4JV4D', 'B099NRCT7B', 'B098714BZP', 'B08YN7XDSG', 'B08CMHNWBN', 'B081WX4G4Q']"
+Amazon Sale Report.csv (Transaccional),Courier Status,str,3,6872,0,0,"['Shipped', 'Cancelled', 'Unshipped']"
+Amazon Sale Report.csv (Transaccional),Qty,int64,10,0,0,0,"[np.int64(0), np.int64(1), np.int64(2), np.int64(15), np.int64(3), np.int64(9), np.int64(13), np.int64(5)]"
+Amazon Sale Report.csv (Transaccional),currency,str,1,7795,0,0,['INR']
+Amazon Sale Report.csv (Transaccional),Amount,float64,1410,7795,0,0,"[np.float64(647.62), np.float64(406.0), np.float64(329.0), np.float64(753.33), np.float64(574.0), np.float64(824.0), np.float64(653.0), np.float64(399.0)]"
+Amazon Sale Report.csv (Transaccional),ship-city,str,8955,33,0,0,"['MUMBAI', 'BENGALURU', 'NAVI MUMBAI', 'PUDUCHERRY', 'CHENNAI', 'GHAZIABAD', 'CHANDIGARH', 'HYDERABAD']"
+Amazon Sale Report.csv (Transaccional),ship-state,str,69,33,0,0,"['MAHARASHTRA', 'KARNATAKA', 'PUDUCHERRY', 'TAMIL NADU', 'UTTAR PRADESH', 'CHANDIGARH', 'TELANGANA', 'ANDHRA PRADESH']"
+Amazon Sale Report.csv (Transaccional),ship-postal-code,float64,9459,33,0,0,"[np.float64(400081.0), np.float64(560085.0), np.float64(410210.0), np.float64(605008.0), np.float64(600073.0), np.float64(201102.0), np.float64(160036.0), np.float64(500032.0)]"
+Amazon Sale Report.csv (Transaccional),ship-country,str,1,33,0,0,['IN']
+Amazon Sale Report.csv (Transaccional),promotion-ids,str,5787,49153,0,0,"['Amazon PLCC Free-Financing Universal Mer...', 'IN Core Free Shipping 2015/04/08 23-48-5...', 'Amazon PLCC Free-Financing Universal Mer...', 'Amazon PLCC Free-Financing Universal Mer...', 'Amazon PLCC Free-Financing Universal Mer...', 'Amazon PLCC Free-Financing Universal Mer...', 'Amazon PLCC Free-Financing Universal Mer...', 'Amazon PLCC Free-Financing Universal Mer...']"
+Amazon Sale Report.csv (Transaccional),B2B,bool,2,0,0,0,"[np.False_, np.True_]"
+Amazon Sale Report.csv (Transaccional),fulfilled-by,str,1,89698,0,0,['Easy Ship']
+Amazon Sale Report.csv (Transaccional),Unnamed: 22,object,1,49050,0,0,[False]
+Sale Report.csv (Maestro Catálogo),index,int64,9271,0,0,2,"[np.int64(0), np.int64(1), np.int64(2), np.int64(3), np.int64(4), np.int64(5), np.int64(6), np.int64(7)]"
+Sale Report.csv (Maestro Catálogo),SKU Code,str,9170,83,0,0,"['AN201-RED-L', 'AN201-RED-M', 'AN201-RED-S', 'AN201-RED-XL', 'AN201-RED-XXL', 'AN202-ORANGE-L', 'AN202-ORANGE-M', 'AN202-ORANGE-S']"
+Sale Report.csv (Maestro Catálogo),Design No.,str,1594,36,0,0,"['AN201', 'AN202', 'AN203', 'AN204', 'AN205', 'AN206', 'AN207', 'AN209']"
+Sale Report.csv (Maestro Catálogo),Stock,float64,295,36,0,0,"[np.float64(5.0), np.float64(3.0), np.float64(6.0), np.float64(11.0), np.float64(16.0), np.float64(8.0), np.float64(14.0), np.float64(1.0)]"
+Sale Report.csv (Maestro Catálogo),Category,str,21,45,0,0,"['AN : LEGGINGS', 'BLOUSE', 'PANT', 'BOTTOM', 'PALAZZO', 'SHARARA', 'SKIRT', 'DRESS']"
+Sale Report.csv (Maestro Catálogo),Size,str,11,36,0,0,"['L', 'M', 'S', 'XL', 'XXL', 'FREE', 'XS', 'XXXL']"
+Sale Report.csv (Maestro Catálogo),Color,str,62,45,0,0,"['Red', 'Orange', 'Maroon', 'Purple', 'Yellow', 'Green', 'Pink', 'Beige']"

@@ -144,19 +144,23 @@ Se recomienda utilizar un entorno virtual (vEnv o Conda) para evitar conflictos 
 
 + Gestor de paquetes: pip.
 
-***2. Dependencias principales***
-  
-El proyecto requiere las siguientes librerías:
+***2. Requisitos e Instalación***
 
-+ pandas (Manipulación de datos)
+### 🛠️ Tecnologías y Librerías Clave
 
-+ pyarrow (Gestión de formatos Parquet)
+* **🧱 Core & Datos:** `Pandas 3.0` & `NumPy 2.4` — Limpieza, manipulación de dataframes y cálculo numérico de alta eficiencia.
+* **📦 Almacenamiento Columnar:** `PyArrow` & `FastParquet` — Compresión y lectura ultrarrápida de datos procesados (esencial para la conexión con Power BI).
+* **🎨 Visualización:** `Seaborn` & `Matplotlib` — Generación de gráficos estadísticos, tendencias de ventas y mapas de calor para el EDA.
+* **🗄️ Base de Datos:** `SQLAlchemy` & `Psycopg2` — Conexión e Ingesta automatizada de los datasets limpios hacia PostgreSQL.
+* **🔐 Seguridad:** `Python-Dotenv` — Gestión segura de credenciales locales mediante variables de entorno (`.env`).
+* **📓 Entorno:** `JupyterLab` & `IPyKernel` — Espacio de trabajo interactivo para el desarrollo y ejecución de los notebooks analíticos.
 
-+ jinja2 (Renderizado de estilos y tablas)
 
-+ openpyx
+Para replicar este entorno de análisis y asegurar el correcto funcionamiento de los scripts y notebooks, asegúrate de tener instalado Python 3.10+ y ejecuta el siguiente comando en tu terminal con tu entorno virtual activo:
 
-
+```bash
+pip install -r requirements.txt
+```
 Dependencias principales
 
 Puedes instalarlas ejecutando:
@@ -229,6 +233,18 @@ JC_EDA_ProyectoFinal
         └──figuras                                    #Imágenes de plots y otras del proyecto
 ```
 
+💡 Nota sobre Power BI y Parquet: Si vas a consumir los archivos .parquet procesados en Power BI de forma local, recuerda que el programa suele requerir la instalación del Java Development Kit (JDK) y la configuración de la variable de entorno JAVA_HOME para poder interpretar correctamente este formato de manera local.
+
+# *Flujo del Pipeline de Datos*
+
+   1. Análisis Exploratorio (EDA): Identificación de valores nulos, registros duplicados y tipos de datos inconsistentes en los reportes RAW de Amazon.
+
+   2. Transformación y Optimización: Los archivos de texto plano .csv (algunos superando los 120 MB) son procesados y guardados en formato .parquet, reduciendo su peso físico en más de un 70% sin pérdida de información para agilizar su lectura.
+
+   3. Persistencia en Base de Datos: A través de una conexión segura manejada por variables de entorno, los datos limpios se inyectan directamente en tablas relacionales dentro de PostgreSQL.
+
+   4. Visualización en Power BI: Conexión directa a la base de datos y a los archivos Parquet para el diseño de dashboards interactivos con KPIs de ventas, rendimiento de stock y tendencias temporales.
+
 # *Desarrollo del proyecto*
 
 ## 📊 1. Diagnóstico Inicial y Auditoría de Calidad de Datos
@@ -241,7 +257,7 @@ Identificar estos elementos de forma temprana impedirá que las desviaciones tem
   <img src="proyecto-final-analytics/reports/figuras/auditoria_calidad_datos_inicial.png" alt="Auditoría Inicial de Calidad de Datos" width="100%" />
 
 
-**🕵️‍♂️ Hallazgos ---** REVISAR !!!
+**🕵️‍♂️ Hallazgos ---**
 1. Variable 'Date': Detectada como tipo 'str'.
    ⚠️ PROBLEMA: Es un string. No podemos hacer filtros temporales ni series continuas.
 

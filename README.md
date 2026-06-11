@@ -661,7 +661,7 @@ Este hallazgo, respaldado por una relevancia estadística moderada ($V = 0.12$),
 Asi mismo, la tasa de incidencia elevada observada en el servicio 'Standard' no es una característica del nivel de envío, sino un reflejo directo de las ineficiencias operativas inherentes al modelo Merchant, que represernta el 97,3% del total de registros evaluados con servicio Standard.
 
 <p align="center">
-  <img src="proyecto-final-analytics/reports/figuras/c_shipservice_fullfillment.png" alt="Auditoría Inicial" width="50%" />
+  <img src="proyecto-final-analytics/reports/figuras/c_shipservice_fullfillment.PNG" alt="Auditoría Inicial" width="50%" />
 <p align="center">  
   <img src="proyecto-final-analytics/reports/figuras/c_fulfillment_by_Service.PNG" alt="Auditoría Inicial" width="50%" />
 </p>

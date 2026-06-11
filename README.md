@@ -576,6 +576,7 @@ Se evaluó la clasificación de las operaciones según el procesador del pedido,
   <img src="proyecto-final-analytics/reports/figuras/08_distribucion_limpia_horizontal.png" alt="Auditoría Inicial" width="85%" />
 </p>
 
+
 Con este enfoque, el análisis se centra en las incidencias, comparando la tasa de incidencia de cada operador logístico:
 - Amazon 12.8%
 - Merchant 22.9%

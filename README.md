@@ -459,15 +459,7 @@ Adicionalmente, analizamos si las rupturas de stock en el almacén central penal
 
 **Bloque 3:** Densidad geográfica y expansión territorial Evaluamos la concentración del volumen monetario por regiones (ship-state, ship-city) para descubrir nichos de mercado desatendidos. Cruzaremos esta información con el stock inmovilizado para proponer redireccionamientos de campañas de marketing territorial.
 
-# REVISAR este texto: Ese Bloque 3 será nuestro cierre maestro y se llamará "Dinámicas de Mercado y Expansión Territorial". Quedará estructurado así:
 
-3.1. Cuándo compran (Tendencias Temporales): La media móvil de 7 días para ver la estacionalidad.
-
-3.2. Quién compra (Perfil B2B vs B2C): Volumen de pedidos para identificar compras mayoristas.
-
-3.3. Dónde compran (Densidad Geográfica): Tu análisis de ship-state y ship-city para encontrar nichos.
-
-3.4. Cruce Estratégico (El Insight Final): Donde cruzaremos a las "Tortugas" (stock inmovilizado del Bloque 1) con los estados de mayor densidad (Bloque 3) para proponer campañas de marketing súper dirigidas.
 
 # *Bloque 1: Diagnóstico de Rotación y Eficiencia.* #
 

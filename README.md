@@ -570,17 +570,15 @@ Se analizan el impacto de la red de distribución sobre las incidencias en el ne
 | **Amazon** | 89,698 | 69.5% |
 | **Merchant** | 39,277 | 30.5% |
 
-Se evalua la diferencia en la clasificación de las operaciones segun quien procesa el pedido y se unifica.
+Se evaluó la clasificación de las operaciones según el procesador del pedido, procediendo a su unificación.
 
 <p align="center">
   <img src="proyecto-final-analytics/reports/figuras/08_distribucion_limpia_horizontal.png" alt="Auditoría Inicial" width="85%" />
 </p>
 
-De esta manera, enfocamos el análisis sobre las incidencias 
-
-Nos enfocamos en la tasa de incidencia de cada uno de los operadores. 
+Con este enfoque, el análisis se centra en las incidencias, comparando la tasa de incidencia de cada operador logístico:
 - Amazon 12.8%
-- Merchant 22,9%
+- Merchant 22.9%
 
 <br>
 <br>
@@ -657,14 +655,13 @@ Contrario a la hipótesis operativa inicial, los datos demuestran que el nivel d
 Este hallazgo, respaldado por una relevancia estadística moderada ($V = 0.12$), no sugiere que la velocidad sea un factor de riesgo, sino que el proceso logístico asociado al servicio estándar carece de la optimización y el control de calidad que posee el servicio Expedited.
 
 <p align="center">
-  <img src="proyecto-final-analytics/reports/figuras/15_riesgo_servicio.png
-" alt="Auditoría Inicial" width="70%" />
+  <img src="proyecto-final-analytics/reports/figuras/15_riesgo_servicio.png" alt="Auditoría Inicial" width="70%" />
 </p>
 
 Asi mismo, la tasa de incidencia elevada observada en el servicio 'Standard' no es una característica del nivel de envío, sino un reflejo directo de las ineficiencias operativas inherentes al modelo Merchant, que represernta el 97,3% del total de registros evaluados con servicio Standard.
 
 <p align="center">
-  <img src="proyecto-final-analytics/reports/figuras/c_servicio_por_fulillment.png" alt="Auditoría Inicial" width="50%" />
+  <img src="proyecto-final-analytics/reports/figuras/c_shipservice_fullfillment.png" alt="Auditoría Inicial" width="50%" />
 <p align="center">  
   <img src="proyecto-final-analytics/reports/figuras/c_fulfillment_by_Service.PNG" alt="Auditoría Inicial" width="50%" />
 </p>
